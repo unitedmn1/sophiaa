@@ -315,7 +315,7 @@
     document.getElementById('demo-confetti').addEventListener('click', launchConfetti);
 
     // download HTML (serializes document to single file)
-    document.getElementById('download-html').addEventListener('click', ()=>{
+    document.getElementById('').addEventListener('click', ()=>{
       const blob = new Blob([document.documentElement.outerHTML],{type:'text/html'});
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a'); a.href=url; a.download='nebula-rank-store.html'; a.click();
